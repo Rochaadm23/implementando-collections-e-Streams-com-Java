@@ -12,8 +12,10 @@
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinovation/list/ExemploList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinovation/list/ExemploVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinovation/list/ExercicioFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinovation/list/ExemploList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinovation/list/ExemploList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <recent name="E:\workspace\Git\DIO\dio-implementando-collections-e-streams-com-java\implementando-collections-e-Streams-com-Java\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExercicioFinal">
     <configuration name="ExemploList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinovation.list.ExemploList" />
       <module name="implementando-collections-e-Streams-com-Java.main" />
@@ -77,8 +79,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExemploVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinovation.list.ExemploVector" />
+      <module name="implementando-collections-e-Streams-com-Java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinovation.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExercicioFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinovation.list.ExercicioFinal" />
+      <module name="implementando-collections-e-Streams-com-Java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinovation.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExercicioFinal" />
+        <item itemvalue="Application.ExemploVector" />
         <item itemvalue="Application.ExemploList" />
       </list>
     </recent_temporary>
@@ -91,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639541824879</updated>
-      <workItem from="1639541827433" duration="1365000" />
+      <workItem from="1639541827433" duration="6164000" />
     </task>
     <servers />
   </component>

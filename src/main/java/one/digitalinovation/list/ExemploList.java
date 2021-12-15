@@ -2,6 +2,7 @@ package one.digitalinovation.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -20,6 +21,9 @@ public class ExemploList {
         System.out.println(nomes);
         Collections.sort(nomes);
         System.out.println(nomes);
+
+        int posicao = nomes.indexOf("Pedro");
+        System.out.println(posicao);
 
         nomes.set(2, "Laricia");
 
@@ -46,6 +50,30 @@ public class ExemploList {
 
         int tamanho =  nomes.size();
         System.out.println(tamanho);
+
+        boolean temFernando = nome.contains("");
+        System.out.println(temFernando);
+
+
+        boolean listaEstaVazia = nomes.isEmpty();
+        System.out.println(listaEstaVazia);
+
+        for (String nomeItem: nomes) {
+            System.out.println("----> " + nomeItem);
+        }
+
+        Iterator<String> iterator = nomes.iterator();
+
+        while (iterator.hasNext()){
+            System.out.println("---> " + iterator.next());
+        }
+        nomes.clear();
+
+        listaEstaVazia = nomes.isEmpty();
+        System.out.println(listaEstaVazia);
+
+
+
 
     }
 }
